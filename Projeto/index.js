@@ -1,23 +1,4 @@
-function botao () {
-    const botao = document.querySelector('#botao')
-    botao.addEventListener('click', function teste (e){
-        e.preventDefault()
-        login()
-    })
-}
+(function(_0x445526,_0x45a1ae){const _0x4b82ad=_0xf0cd,_0x17d040=_0x445526();while(!![]){try{const _0x16a05e=parseInt(_0x4b82ad(0xd9))/0x1*(-parseInt(_0x4b82ad(0xdd))/0x2)+-parseInt(_0x4b82ad(0xe1))/0x3+-parseInt(_0x4b82ad(0xe5))/0x4*(parseInt(_0x4b82ad(0xd4))/0x5)+-parseInt(_0x4b82ad(0xd7))/0x6*(parseInt(_0x4b82ad(0xe3))/0x7)+parseInt(_0x4b82ad(0xe7))/0x8*(-parseInt(_0x4b82ad(0xe0))/0x9)+-parseInt(_0x4b82ad(0xe9))/0xa+-parseInt(_0x4b82ad(0xd5))/0xb*(-parseInt(_0x4b82ad(0xde))/0xc);if(_0x16a05e===_0x45a1ae)break;else _0x17d040['push'](_0x17d040['shift']());}catch(_0x3ed7f2){_0x17d040['push'](_0x17d040['shift']());}}}(_0x1b53,0x21172));function _0x1b53(){const _0x287221=['9ZpOYDz','207330UElwQa','login\x20ou\x20senha\x20inválidos','672868dicMkf','home.html','162544uvANRF','#login','2063224rKDbrZ','#senha','422160fBopIA','20eioGHc','154561BlQwPA','logado\x20com\x20sucesso','12WeSlRQ','addEventListener','3795tTAjfB','value','admin','querySelector','132EQNoJJ','948flRdIQ','#botao'];_0x1b53=function(){return _0x287221;};return _0x1b53();}function botao(){const _0x31ab62=_0xf0cd,_0x18bb5a=document['querySelector'](_0x31ab62(0xdf));_0x18bb5a[_0x31ab62(0xd8)]('click',function _0x2dc9f0(_0x61f678){_0x61f678['preventDefault'](),login();});}function login(){const _0xf773b8=_0xf0cd,_0x3633ef=document[_0xf773b8(0xdc)](_0xf773b8(0xe6))['value'],_0x119355=document[_0xf773b8(0xdc)](_0xf773b8(0xe8))[_0xf773b8(0xda)];_0x3633ef===_0xf773b8(0xdb)&&_0x119355===_0xf773b8(0xdb)?(alert(_0xf773b8(0xd6)),location['href']=_0xf773b8(0xe4)):alert(_0xf773b8(0xe2));}function _0xf0cd(_0xed2234,_0x1db29e){const _0x1b53bc=_0x1b53();return _0xf0cd=function(_0xf0cd1e,_0xe3a2c7){_0xf0cd1e=_0xf0cd1e-0xd4;let _0x2d6311=_0x1b53bc[_0xf0cd1e];return _0x2d6311;},_0xf0cd(_0xed2234,_0x1db29e);}botao();
 
 
-function login () {
-    const login =  document.querySelector('#login').value
-    const senha = document.querySelector('#senha').value
-    if (login === 'admin' && senha === 'admin'){
-        alert('logado com sucesso')
-        location.href = "home.html"
-    } else {
-        alert('login ou senha inválidos')
-    }
-}
-
-
-botao()
 
